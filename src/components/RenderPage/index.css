@@ -1,0 +1,46 @@
+.menu-tabs {
+  min-width: 99%;
+  list-style-type: none;
+  display: flex;
+  gap: 0.8rem;
+  overflow-x: auto;
+  width: 99%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 2px 0px #00000030;
+}
+
+.menu-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs {
+  white-space: nowrap;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+}
+
+.tabs:hover {
+  cursor: pointer;
+}
+
+.active {
+  border-bottom: 1px solid #f23311;
+  color: #f23311;
+}
+
+.tab-btn {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+.menu-item-container {
+  width: 99%;
+  margin: auto;
+}
+
+.menu-item-card-container {
+  list-style-type: none;
+  padding-left: 0;
+}

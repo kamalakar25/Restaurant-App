@@ -1,0 +1,96 @@
+.eachItem {
+  display: flex;
+  width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 0.2rem;
+  padding: 5px;
+}
+
+.dish-type-and-dish-details {
+  width: 60%;
+  display: flex;
+}
+
+.dish-type-img {
+  width: 2rem;
+  height: 2rem;
+}
+
+.dish-name {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.sar-val {
+  font-size: 0.8rem;
+  color: grey;
+  font-weight: 600;
+}
+
+.dish-desc {
+  font-size: 0.7rem;
+}
+
+.not-available-error {
+  font-size: 0.75rem;
+  color: crimson;
+}
+
+.add-on-container {
+  background-color: green;
+  color: #fff;
+  display: inline-flex;
+  border-radius: 30px;
+  padding: 0px 5px;
+}
+
+.add-sub-btn {
+  border: none;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  padding: 0px 10px;
+  margin: 0px;
+}
+
+.number-dish {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0px 10px;
+  margin: 5px;
+}
+
+.custom-avail {
+  font-size: 0.8rem;
+  color: blue;
+}
+
+.calories-and-image {
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.calories {
+  color: orange;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.dish-img {
+  width: 6rem;
+  height: 6rem;
+}
+
+.add-cart-btn {
+  border: none;
+  padding: 4px 8px;
+  background-color: blue;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-left: 1rem;
+}
